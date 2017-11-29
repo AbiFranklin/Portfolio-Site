@@ -1,0 +1,173 @@
+
+@font-face {
+    font-family: 'Hofstad';
+    src: url('Hofstad-webfont.woff2') format('woff2'),
+         url('Hofstad-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('GeosansLight.ttf') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: grey;
+}
+
+.headingfixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  float: left;
+  height: 10vh;
+  background-color: white;
+  font-family: 'Hofstad';
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navfixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 10vh;
+  background-color: white;
+  font-family: 'GeosansLight';
+  text-align: center;
+  vertical-align: middle;
+  word-spacing: 30px;
+}
+
+.full-widthheader {
+  background-image: url("img/landing.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  width: 95%;
+  height: 50vh;
+}
+
+.full-width {
+  clear: both;
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+  font-family: 'Hofstad';
+  text-align: center;
+  font-size: 20pt;
+}
+
+.third-width {
+  float: left;
+  width: 33.1%;
+  height: 40vh;
+  background-color: white;
+  font-family: 'GeosansLight';
+  font-size: 24pt;
+  text-align: center;
+  border-left: thin solid grey;
+  line-height: .2;
+}
+
+.third-widthport {
+  float: left;
+  width: 33.3%;
+  height: inherit;
+  background-color: white;
+  font-family: 'GeosansLight';
+  font-size: 24pt;
+  text-align: center;
+  line-height: .2;
+  vertical-align: middle;
+
+}
+
+.full-widthport {
+  background-image: url("img/portfolio.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  width: 95%;
+  height: 10vh;
+  vertical-align: middle;
+}
+
+.full-widthporttx {
+  background-color: white;
+  clear: both;
+  width: 95%;
+  height: 65vh;
+  vertical-align: middle;
+}
+
+#aboutphoto {
+  background-image: url("img/about.png");
+  background-attachment: fixed;
+  background-position: 95% 0%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  float: right;
+  width: 31.1%;
+  height: 85vh;
+  margin-right: 2.5%;
+}
+
+#abouttext {
+  font-family: 'GeosansLight';
+  font-size: 20pt;
+  text-align: left;
+  text-indent: 2.5%;
+  height: 85vh;
+  margin-top: 2%;
+  clear: both;
+  float: left;
+  margin-left: 2.5%;
+  width: 60%;
+}
+
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+}
+
+div.container {
+  padding: 10px;
+}
+
+.full-widthcontact {
+  background-color: white;
+  clear: both;
+  width: 95%;
+  height: 85vh;
+  vertical-align: middle;
+}
+
+.half-width {
+  width: 50%;
+  text-align: center;
+  font-family: 'GeosansLight';
+  font-size: 20pt;
+  float: left;
+  height: inherit;
+  vertical-align: middle;
+  display: table-cell;
+}
